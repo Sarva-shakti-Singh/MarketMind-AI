@@ -11,7 +11,7 @@ for name, (desc, fn, needs_input) in AGENTS.items():
     with st.expander(f"**{name}** — {desc}"):
         if needs_input:
             val = st.text_input(f"Input for {name}", key=f"in_{name}",
-                                placeholder="e.g. ai marketing automation")
+                                placeholder="e.g. MarketMind AI")
             if st.button(f"▶ Run {name}", key=f"btn_{name}"):
                 with st.spinner("Agent working..."):
                     result = fn(val or "marketing")

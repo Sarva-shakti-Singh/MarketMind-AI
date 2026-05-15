@@ -8,7 +8,7 @@ from utils.state import init_session
 from utils.ai import has_key
 
 st.set_page_config(
-    page_title="AI Marketing Automation",
+    page_title="MarketMind AI",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -20,8 +20,8 @@ init_session()
 # ═══════════════════════════════════════════════════════════════
 # HEADER
 # ═══════════════════════════════════════════════════════════════
-st.title("🚀 AI Marketing Automation Dashboard")
-st.caption("Smart automation powered by autonomous AI agents • Gemini API integration")
+st.title("🚀 MarketMind AI Dashboard")
+st.caption("Smart marketing automation powered by autonomous AI agents • Gemini API integration")
 
 # Status Bar
 website_url = st.session_state.get("website_url", "")
@@ -153,4 +153,4 @@ st.divider()
 # ═══════════════════════════════════════════════════════════════
 # FOOTER
 # ═══════════════════════════════════════════════════════════════
-st.caption("© 2026 AI Marketing Automation • Powered by Google Gemini API • Built with Streamlit")
+st.caption("© 2026 MarketMind AI • Powered by Google Gemini API • Built with Streamlit")

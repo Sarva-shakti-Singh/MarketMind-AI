@@ -49,7 +49,7 @@ with st.form("addkw"):
 
 st.divider()
 st.subheader("🤖 AI Keyword Research")
-seed_default = hostname if hostname else "ai marketing automation"
+seed_default = hostname if hostname else "MarketMind AI"
 seed = st.text_input("Seed keyword", seed_default)
 if st.button("Research"):
     with st.spinner("AI researching..."):

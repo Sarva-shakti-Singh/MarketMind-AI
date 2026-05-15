@@ -1,4 +1,4 @@
-# 🚀 AI Marketing Automation Dashboard
+# 🚀 MarketMind AI
 
 Full-stack AI-powered marketing automation platform with autonomous AI agents, real-time analytics, workflow orchestration (N8N/Zapier), and AI-driven insights — all in a single Streamlit app that runs instantly in VS Code.
 
@@ -40,7 +40,7 @@ The app opens at http://localhost:8501
 ## 📁 Structure
 
 ```
-genai-marketing/
+MarketMind-AI/
 ├── app.py                  # Main entry point
 ├── pages/                  # 10 Streamlit pages
 ├── agents/                 # AI agent implementations
@@ -60,7 +60,7 @@ genai-marketing/
 
 ## 📝 Resume Description
 
-> Developed a full-stack AI Marketing Automation Dashboard using Python, Streamlit, Google Gemini, SQLite, N8N, and Zapier — featuring 6 autonomous AI agents for SEO monitoring, keyword research, campaign health analysis, content ideation, lead scoring, and automated executive reporting with real-time analytics and workflow orchestration.
+> Developed a full-stack AI marketing platform, MarketMind AI, using Python, Streamlit, Google Gemini, SQLite, N8N, and Zapier — featuring 6 autonomous AI agents for SEO monitoring, keyword research, campaign health analysis, content ideation, lead scoring, and automated reporting with real-time analytics and workflow orchestration.
 
 
 

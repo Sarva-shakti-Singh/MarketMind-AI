@@ -19,7 +19,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(
 )
 
 with tab1:
-    default_topic = f"AI marketing automation for {hostname}" if hostname else "AI marketing automation"
+    default_topic = f"MarketMind AI for {hostname}" if hostname else "MarketMind AI"
     topic = st.text_input("Topic", default_topic, key="t1")
     n = st.slider("How many", 5, 20, 10)
     if st.button("Generate", key="b1"):
