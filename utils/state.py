@@ -1,14 +1,15 @@
+# ==============================
+# FILE: state.py
+# ==============================
+
 import streamlit as st
 
-
-def init_session():
+def init_state():
     defaults = {
-        "chat_history": [],
-        "agent_runs": 0,
-        "zapier_webhook": "",
-        "n8n_webhook": "",
         "website_url": "",
+        "gemini_api_key": "",
     }
-    for k, v in defaults.items():
-        if k not in st.session_state:
-            st.session_state[k] = v
+
+    for key, value in defaults.items():
+        if key not in st.session_state:
+            st.session_state[key] = value
